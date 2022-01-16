@@ -1,0 +1,109 @@
+@font-face {
+      font-family: Mk-reg;
+      src: url(fonts/Mukta-Regular.ttf);
+}
+
+body {
+      font-family: Mk-reg;
+}
+
+.purp {
+      background-color: #512da8;
+      color: #fafafa;
+      width: 40px;
+      height: 40px;
+      border: 2px solid #fafafa;
+      border-radius: 50%;
+      font: bold 16px;
+}
+
+.quo {
+      width: auto;
+      height: 4rem;
+      background-color: #f5fdf5;
+      border-left: 5px solid #c1f2bb;
+}
+
+.grad-bg {
+      background-image: linear-gradient(to right, rgba(49, 169, 105, 1),
+                  rgba(55, 136, 122, 1), rgba(61, 104, 138, 1));
+}
+
+.hd {
+      height: 25vh;
+}
+
+.more {
+      font-family: Mk-reg;
+      letter-spacing: 0.025rem;
+      margin-top: 24px;
+}
+
+.more div:nth-child(1) {
+      font-size: 24px;
+}
+
+.fc {
+      color: rgba(61, 104, 138, 1);
+}
+
+.gli {
+      border-bottom: 1px solid rgba(0, 0, 0, .125)
+}
+
+.list {
+      width: 90%;
+}
+
+.fc {
+      color: #1b4794;
+}
+
+
+
+@media (min-width: 992px) {
+      .la {
+            position: absolute;
+            top: 75%;
+            transform: translateY(-50%);
+            width: 32.5vw;
+      }
+
+      .bo {
+            position: absolute;
+            top: 43.6%;
+            right: 34.7%;
+            transform: translate(-43.6, -34.7%);
+            width: 30.8vw;
+            height: 56vh;
+      }
+
+      .last {
+            position: absolute;
+            top: 113%;
+            left: 1.4%;
+            
+            width: 65vw;
+      }
+}
+
+@media (max-width: 575.98px) {
+      .psma {
+            display: flex;
+            flex-direction: column;
+      }
+
+      .sim {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+      }
+
+      .user {
+            display: none;
+      }
+      
+      .imm, .he {
+            margin-bottom: 32px;
+      }
+}
